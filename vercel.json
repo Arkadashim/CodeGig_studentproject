@@ -1,18 +1,3 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "src": "./app.js",
-            "use": "@vercel/node-server"
-        }
-    ],
-    "routes": [
-        {
-            "handle": "filesystem"
-        },
-        {
-            "src": "/.*",
-            "dest": "app.js"
-        }
-    ]
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
