@@ -31,7 +31,6 @@ app.get('/', (req, res) => res.render('index', {layout: 'landing'}));
 app.use('/gigs', require('./routes/gigs'));
 
 const PORT = process.env.PORT || 5000;
-
 app.listen(PORT, console.log(`Server started on port ${PORT}`));
 
 module.exports = app;
