@@ -2,10 +2,10 @@
   "name": "codegig_stdprj",
   "version": "1.0.0",
   "description": "test student's project. Andrey Galyov",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Arkadashiim",
   "license": "ISC",
